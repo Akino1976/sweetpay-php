@@ -1,0 +1,24 @@
+{
+  "name": "Akino1976/sweetpay-php",
+  "description": "sweetpay-php PHP Library",
+  "keywords": [
+    "sweetPay",
+    "payment processing",
+    "api"
+  ],
+  "homepage": "http://paylevo.com/en/",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.4"
+  },
+  "config": {
+        "vendor-dir": "lib/vendor"
+    },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "phpmailer/phpmailer": "~5.2"
+  },
+  "autoload": {
+    "psr-4": { "SweetPay\\" : "lib/" }
+  }
+}
